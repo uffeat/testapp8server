@@ -2,3 +2,11 @@
 *.pyo
 __pycache__
 .anvil-data
+
+
+# Custom
+uplink_keys.json
+scratch_code/
+NOTES.md
+TODO.txt
+TODO.md
