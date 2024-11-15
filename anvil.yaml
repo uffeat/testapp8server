@@ -1,5 +1,33 @@
 allow_embedding: true
 db_schema:
+  download:
+    client: none
+    columns:
+    - admin_ui: {width: 200}
+      name: media
+      type: media
+    - admin_ui: {width: 200}
+      name: simple
+      type: simpleObject
+    - admin_ui: {width: 200}
+      name: text
+      type: string
+    server: full
+    title: download
+  upload:
+    client: none
+    columns:
+    - admin_ui: {width: 200}
+      name: text
+      type: string
+    - admin_ui: {width: 200}
+      name: media
+      type: media
+    - admin_ui: {width: 200}
+      name: simple
+      type: simpleObject
+    server: full
+    title: upload
   users:
     client: none
     columns:
